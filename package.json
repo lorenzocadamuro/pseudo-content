@@ -1,0 +1,31 @@
+{
+  "name": "pseudo-content",
+  "version": "1.0.0",
+  "description": "Read the content of a pseudo-element",
+  "main": "pseudo-content.js",
+  "scripts": {
+    "lint": "eslint pseudo-content.js",
+    "prebuild": "npm run lint",
+    "build": "uglifyjs pseudo-content.js > pseudo-content.min.js"
+  },
+  "keywords": [
+    "css",
+    "pseudo element",
+    "css",
+    "before",
+    "after"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenzocadamuro/pseudo-content"
+  },
+  "author": "Lorenzo Cadamuro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorenzocadamuro/pseudo-content/issues"
+  },
+  "homepage": "https://github.com/lorenzocadamuro/pseudo-content",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}

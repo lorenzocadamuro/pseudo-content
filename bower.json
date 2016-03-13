@@ -1,0 +1,19 @@
+{
+  "name": "pseudo-content",
+  "version": "1.0.0",
+  "homepage": "https://github.com/lorenzocadamuro/pseudo-content",
+  "authors": [
+    "Lorenzo Cadamuro"
+  ],
+  "description": "Read the content of a pseudo-element",
+  "main": "pseudo-content.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
