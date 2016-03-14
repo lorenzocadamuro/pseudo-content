@@ -6,7 +6,7 @@
     define(function() { return factory; });
   } else if (typeof module !== 'undefined' && module['exports']) {
     module['exports'] = factory;
-  } else if (typeof this !== 'undefined') {
+  } else if (typeof root !== 'undefined') {
     root['pseudoContent'] = factory;
   }
 })(this, function(elm, pseudoelement) {
