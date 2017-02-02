@@ -1,10 +1,10 @@
-# Pseudo-content
+# Pseudo content
 Read the content of a pseudo-element.
 
 ## Install
 
 ```sh
-bower install pseudo-content
+npm install pseudo-content
 ```
 
 ## Use
