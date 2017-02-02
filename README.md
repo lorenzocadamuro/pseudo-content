@@ -18,8 +18,10 @@ npm install pseudo-content
 ```
 
 ```javascript
-var foo = document.getElementById('foo'),
-    fooPseudoContent = pseudoContent(foo, 'before');
+var foo = document.getElementById('foo');
+
+// as second parameter you can pass the pseudo element as string - 'before' or 'after'
+var fooPseudoContent = pseudoContent(foo);
 
 console.log(fooPseudoContent.get()); // mobile
 console.log(fooPseudoContent.is('mobile')); // true
